@@ -76,3 +76,32 @@ Ele faz um breve convite para lutar contra ele e então ele começa a correr e a
 Quando Tairone for acertado 4 vezes ele cortará a ponte, dificultando a vida do protagonista que terá que usar os pedaços da ponte cortada para se esquivar dos golpes do chefão (os pedaços da ponte na água ficam se movendo aleatoriamente na água. Tairone agora lança 6 sequências de ataque e quando termina se teletransporta para canto da tela e joga uma shuriken gigante, após isso ele finca a espada no chão ou nos restos da ponte. Caso acerte o protagonista ele perderá um coração de vida e sairá voando, o chefão ficará parado um tempo com espada no chão. Caso erre ele apenas ficará parado um tempo com espada no chão (esse é o momento para acertá-lo). Quando ele se levantar ele correrá para o canto da tela e tudo se repetirá.
 
 Quando o protagonista acertá-lo mais 4 vezes ele morrerá e cairá na água. Terminando assim a fase.
+
+<br>
+
+## Coisas Técnicas
+
+**Números de Fase:** O jogo contará com 3 fases simples. O desafio principal das fases será derrotar os inimigos e derrotar o boss.
+
+**Número de Boss:** Nosso jogo contará com 2 bosses, o primeiro será enfrentado na segunda fase e o outro na terceira.
+
+**Inimigos:** Idealmente terá 3 tipos de inimigos diferentes: um samurai que lutará com uma catana, um outro samurai que utilizará uma pistola e ainda um inimigo especial que aparecerá na primeira boss-fight.
+
+**Ambientação:** As fases serão ambientadas em florestas e campos.
+
+**Número de sprites:** Idealmente terá 5 sprites de personagens
+
+<br>
+
+## Movimento dos Personagens
+
+**Utuh:** É o protagonista. Seus movimentos de ataque são de um soco quando ele está desarmado e um golpe quando ele está com uma catana. Ele também pode andar para ambos os lados e realizar um pulo ou um pulo duplo dependendo da escolha do jogador, além da animação quando o jogador recebe dano e quando morre.
+
+**Inimigo Padrão Curto Alcance:** Ele pode andar para ambos os lados, perseguindo o jogador e possui um ataque com a catana. Possui também um pulo e a animação de quando ele recebe dano e quando morre.
+
+**Inimigo Padrão Longo Alcance:** Ele pode andar para ambos os lados, perseguindo o jogador e possui um ataque com sua pistola (ele dá um tiro que segue em linha reta). Ele possui também um pulo e a animação de quando ele morre.
+
+**Inimigo Especial:** Ele pode realizar dois ataques seguidos com sua catana e realizar um pulo, além de poder “brotar” do cenário, vindo do limite da fase visível. Possui também a animação de quando ele sofre dano e quando morre.
+
+**Uruti (1º Boss):** Os movimentos dos bosses são mais avançados. Ela pode perseguir o jogador, ou seja, andar para ambos os lados e também realizar um pulo. Ela pode realizar três ataques seguidos com sua catana, além de chamar os inimigos especiais para lhe auxiliar, neste momento ela assobia e em seguida aparece os inimigos especiais. Enquanto houver inimigos na arena ela fica escura e intangível. Ela possui os movimentos de quanto ela é derrotada e quando o Tailer mata ela.
+
